@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "super-map"
+version = "0.1.0"
+description = ""
+authors = ["Rishant Sharma <132047640+SageRish@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+pyside6 = "^6.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
